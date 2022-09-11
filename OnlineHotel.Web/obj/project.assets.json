@@ -3259,13 +3259,52 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
+          "OnlineHotel.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/OnlineHotel.BLL.dll": {}
         },
         "runtime": {
           "bin/placeholder/OnlineHotel.BLL.dll": {}
+        }
+      },
+      "OnlineHotel.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8"
+        },
+        "compile": {
+          "bin/placeholder/OnlineHotel.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineHotel.Models.dll": {}
+        }
+      },
+      "OnlineHotel.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.8",
+          "OnlineHotel.BLL": "1.0.0",
+          "OnlineHotel.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnlineHotel.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineHotel.Utility.dll": {}
+        }
+      },
+      "OnlineHotel.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OnlineHotel.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineHotel.ViewModels.dll": {}
         }
       }
     }
@@ -10043,6 +10082,21 @@
       "type": "project",
       "path": "../OnlineHotel.BLL/OnlineHotel.BLL.csproj",
       "msbuildProject": "../OnlineHotel.BLL/OnlineHotel.BLL.csproj"
+    },
+    "OnlineHotel.Models/1.0.0": {
+      "type": "project",
+      "path": "../OnlineHotel.Models/OnlineHotel.Models.csproj",
+      "msbuildProject": "../OnlineHotel.Models/OnlineHotel.Models.csproj"
+    },
+    "OnlineHotel.Utility/1.0.0": {
+      "type": "project",
+      "path": "../OnlineHotel.Utility/OnlineHotel.Utility.csproj",
+      "msbuildProject": "../OnlineHotel.Utility/OnlineHotel.Utility.csproj"
+    },
+    "OnlineHotel.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../OnlineHotel.ViewModels/OnlineHotel.ViewModels.csproj",
+      "msbuildProject": "../OnlineHotel.ViewModels/OnlineHotel.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10053,6 +10107,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.8",
       "OnlineHotel.BLL >= 1.0.0",
+      "OnlineHotel.Utility >= 1.0.0",
+      "OnlineHotel.ViewModels >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.3.0"
     ]
   },
@@ -10085,6 +10141,12 @@
           "projectReferences": {
             "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.BLL\\OnlineHotel.BLL.csproj": {
               "projectPath": "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.BLL\\OnlineHotel.BLL.csproj"
+            },
+            "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.Utility\\OnlineHotel.Utility.csproj": {
+              "projectPath": "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.Utility\\OnlineHotel.Utility.csproj"
+            },
+            "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.ViewModels\\OnlineHotel.ViewModels.csproj": {
+              "projectPath": "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.ViewModels\\OnlineHotel.ViewModels.csproj"
             }
           }
         }

@@ -1,0 +1,12 @@
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\bin\Debug\net6.0\OnlineHotel.ViewModels.deps.json
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\bin\Debug\net6.0\OnlineHotel.ViewModels.dll
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\bin\Debug\net6.0\OnlineHotel.ViewModels.pdb
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\obj\Debug\net6.0\OnlineHotel.ViewModels.csproj.AssemblyReference.cache
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\obj\Debug\net6.0\OnlineHotel.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\obj\Debug\net6.0\OnlineHotel.ViewModels.AssemblyInfoInputs.cache
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\obj\Debug\net6.0\OnlineHotel.ViewModels.AssemblyInfo.cs
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\obj\Debug\net6.0\OnlineHotel.ViewModels.csproj.CoreCompileInputs.cache
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\obj\Debug\net6.0\OnlineHotel.ViewModels.dll
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\obj\Debug\net6.0\refint\OnlineHotel.ViewModels.dll
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\obj\Debug\net6.0\OnlineHotel.ViewModels.pdb
+C:\Git-Repos\OnlineHotelBooking\OnlineHotel.ViewModels\obj\Debug\net6.0\ref\OnlineHotel.ViewModels.dll
