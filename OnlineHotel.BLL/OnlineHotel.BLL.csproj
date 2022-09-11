@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineHotel.Models\OnlineHotel.Models.csproj" />
+  </ItemGroup>
+
 </Project>

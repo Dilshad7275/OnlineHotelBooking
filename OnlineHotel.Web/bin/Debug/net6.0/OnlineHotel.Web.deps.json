@@ -14,6 +14,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.8",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.8",
           "OnlineHotel.BLL": "1.0.0",
+          "OnlineHotel.Utility": "1.0.0",
+          "OnlineHotel.ViewModels": "1.0.0",
           "Swashbuckle.AspNetCore": "6.3.0"
         },
         "runtime": {
@@ -2347,10 +2349,34 @@
       "OnlineHotel.BLL/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
+          "OnlineHotel.Models": "1.0.0"
         },
         "runtime": {
           "OnlineHotel.BLL.dll": {}
+        }
+      },
+      "OnlineHotel.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8"
+        },
+        "runtime": {
+          "OnlineHotel.Models.dll": {}
+        }
+      },
+      "OnlineHotel.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.8",
+          "OnlineHotel.BLL": "1.0.0",
+          "OnlineHotel.Models": "1.0.0"
+        },
+        "runtime": {
+          "OnlineHotel.Utility.dll": {}
+        }
+      },
+      "OnlineHotel.ViewModels/1.0.0": {
+        "runtime": {
+          "OnlineHotel.ViewModels.dll": {}
         }
       }
     }
@@ -3657,6 +3683,21 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "OnlineHotel.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineHotel.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineHotel.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineHotel.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

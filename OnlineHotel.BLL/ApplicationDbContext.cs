@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using OnlineHotel.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,7 @@ namespace OnlineHotel.BLL
         {
 
         }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<RoomType> RoomTypes { get; set; }
     }
 }
