@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\OnlineHotel.Models.csproj": {}
+    "C:\\My-Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\OnlineHotel.Models.csproj": {}
   },
   "projects": {
-    "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\OnlineHotel.Models.csproj": {
+    "C:\\My-Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\OnlineHotel.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\OnlineHotel.Models.csproj",
+        "projectUniqueName": "C:\\My-Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\OnlineHotel.Models.csproj",
         "projectName": "OnlineHotel.Models",
-        "projectPath": "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\OnlineHotel.Models.csproj",
+        "projectPath": "C:\\My-Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\OnlineHotel.Models.csproj",
         "packagesPath": "C:\\Users\\dilsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\obj\\",
+        "outputPath": "C:\\My-Git-Repos\\OnlineHotelBooking\\OnlineHotel.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dilsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
